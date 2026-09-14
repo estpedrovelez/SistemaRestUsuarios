@@ -1,0 +1,17 @@
+{
+  "name": "sistema-rest-usuarios",
+  "version": "1.0.0",
+  "description": "API REST de gestion de usuarios - Desarrollo de Software por Componentes",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+}
+}
