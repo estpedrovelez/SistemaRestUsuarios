@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 
 const UsuarioRepository = require('./repositories/UsuarioRepository');
 const UsuarioService = require('./services/UsuarioService');
@@ -7,6 +8,7 @@ const crearUsuarioRoutes = require('./routes/usuarioRoutes');
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 const usuarioRepository = new UsuarioRepository();
